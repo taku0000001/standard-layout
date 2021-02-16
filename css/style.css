@@ -1,19 +1,29 @@
-/*以下確認用の一時CSS*/
-.header, .wrapper, .sidemenu, .main, .footer {
-  border: 1px solid #aaa;
-  background-color: #ccc;
-}
-.header, .footer {
-  height: 100px;
+@charset "UTF-8";
+
+html {
+  font-size: 62.5%;
 }
 
-.main, .sidemenu {
-  height: 500px;
+body {
+  color: #333;
+  font-size: 1.2rem;
+  font-family: "Hiragino Kaku Gothic ProN", Meirio, sans-serif;
 }
-/*↑以下確認用の一時CSS*/
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+a:link, a:visited, a:hover, a:active {
+  color: #d03c56;
+  text-decoration: none;
+}
 
 .header {
   width: 100%;
+  padding: 28px 0 10px;
+  background: url('../images/bg-header.git') repeat-x;
+  box-shadow: 0 0 10px 1px #e3e3e3;
 }
 
 .wrapper {
