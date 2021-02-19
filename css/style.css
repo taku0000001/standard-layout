@@ -113,3 +113,17 @@ a:link, a:visited, a:hover, a:active {
   opacity: 0.85;
 }
 
+.hot-topic .image {
+  width: 50%;
+  height: 100%;
+  float: left;
+}
+
+.hot-topic .content {
+  width: 50%;
+  height: 100%;
+  float: left;
+  padding: 105px 25px;
+  background-color: #2d3d54;
+}
+
