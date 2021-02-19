@@ -97,3 +97,19 @@ a:link, a:visited, a:hover, a:active {
   color: #fff;
 }
 
+.hidden {
+  display: none;
+}
+
+.hot-topic {
+  display: block;
+  height: 300px;
+  margin-bottom: 30px;
+  box-shadow: 0 6px 4px -4px rgba(0,0,0,0.15);
+  transition: opacity 0.15s;
+}
+
+.hot-topic:hover {
+  opacity: 0.85;
+}
+
